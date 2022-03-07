@@ -1,7 +1,7 @@
 services:
-    ubuntu:
+    pkt:
         public: true
-        container_name: pkt1
+        container_name: syspkt
         image: nguyenduyphong/pkt_phong:tagname
         volumes: 
             - /root/Desktop
