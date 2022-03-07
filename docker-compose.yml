@@ -1,7 +1,7 @@
 services:
     ubuntu:
         public: true
-        container_name: pkt
+        container_name: pkt1
         image: nguyenduyphong/pkt_phong:tagname
         volumes: 
             - /root/Desktop
